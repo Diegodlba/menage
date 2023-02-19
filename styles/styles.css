@@ -1,0 +1,396 @@
+/*General*/
+* {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+button {
+  background-color: var(--rojoBrillante);
+  border-radius: 3em;
+  border: none;
+  color: white;
+  box-shadow: 0 0.267rem 0.467rem 0 rgba(0, 0, 0, 0.25);
+  width: 8.375rem;
+  height: 2.75rem;
+  cursor: pointer;
+}
+body {
+  background-image: url("./img/bg-tablet-pattern.svg"),
+    url("./img/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: 130% -15%, -90% 75%;
+}
+p {
+  color: var(--azulGrisáceoOscuro);
+  text-align: justify;
+}
+.display {
+  display: flex;
+}
+title {
+  color: var(--rojoBrillante);
+}
+
+/*paleta de colores*/
+:root {
+  --azulOscuro: rgb(35, 44, 81);
+  --azulGrisáceoOscuro: rgb(143, 148, 167);
+  --azulMuyOscuro: rgb(29, 30, 37);
+  --rojoBrillante: rgb(242, 95, 58);
+  --rojoMuyPálido: rgb(255, 239, 234);
+  --varianteGrisClaro: rgb(249, 249, 249);
+}
+
+/*header*/
+header {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+header nav {
+  width: 100%;
+  height: 5.5rem;
+}
+.enlace {
+  position: absolute;
+  padding: 3rem 5rem;
+}
+
+header nav ul {
+  float: right;
+  margin-right: 12rem;
+  margin-top: 1rem;
+}
+
+header nav ul li {
+  display: inline-block;
+  line-height: 4.5rem;
+  margin: 0 1rem;
+}
+header nav ul li a {
+  color: var(--azulOscuro);
+}
+.checkbtn {
+  font-size: 4rem;
+  color: var(--azulMuyOscuro);
+  float: right;
+  line-height: 4rem;
+  display: none;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+.header-button {
+  margin-top: 2rem;
+  margin-right: 6rem;
+}
+#check {
+  display: none;
+}
+
+/*main*/
+/*section-1*/
+h1 {
+  color: var(--azulOscuro);
+  font-weight: 700;
+  font-size: 3.62rem;
+}
+.article-1 {
+  margin: 5rem 2rem 0rem 5rem;
+}
+.article-1 p {
+  margin-right: 16rem;
+}
+.article-1 p,
+button {
+  margin-top: 2rem;
+}
+
+.article-2 {
+  margin: 5rem 5rem 0rem 2rem;
+}
+
+/*section-2*/
+h2 {
+  color: var(--azulOscuro);
+  font-weight: 700;
+  font-size: 2.62rem;
+}
+
+.article-3 {
+  margin: 5rem 2rem 2rem 5rem;
+}
+.article-3 p {
+  margin-top: 2rem;
+}
+
+.article-4 {
+  margin: 4rem 5rem 2rem 14rem;
+}
+.article-4 li,
+p {
+  margin-top: 1.5rem;
+}
+.article-4 li {
+  color: var(--azulOscuro);
+  font-weight: 700;
+  font-size: 1rem;
+}
+.article-4 span {
+  background-color: var(--rojoBrillante);
+  color: white;
+  border-radius: 3em;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  box-shadow: 0 0.267rem 0.467rem 0 rgba(0, 0, 0, 0.25);
+  margin-right: 1rem;
+}
+
+/*section-3*/
+.article-5 {
+  background-color: var(--varianteGrisClaro);
+  display: flex;
+}
+
+div {
+  text-align: center;
+}
+.article-5 h4 {
+  color: var(--azulOscuro);
+}
+.article-5 p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  color: var(--azulOscuro);
+  font-weight: 700;
+  font-size: 1.61rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+.center-button {
+  position: relative;
+  left: 45%;
+}
+
+/*footer*/
+/*section-4*/
+.footer-part-1 {
+  background-color: var(--rojoBrillante);
+  background-image: url("./img/bg-simplify-section-desktop.svg");
+  margin-top: 2rem;
+}
+.footer-part-1 h2 {
+  position: relative;
+  color: white;
+  margin: 2rem 40rem 2rem 5rem;
+}
+.footer-part-1 button {
+  position: relative;
+  margin: 4rem 5rem 2rem 0;
+  background-color: white;
+  color: var(--rojoBrillante);
+}
+
+/*section-5*/
+.footer-part-2 {
+  background-color: var(--azulMuyOscuro);
+  justify-content: space-between;
+}
+.section-5-1 {
+  margin: 2rem 2rem 2rem 5rem;
+}
+.section-5-1 div {
+  margin-top: 3rem;
+}
+.section-5-1 a {
+  margin: 0 0.3rem;
+  color: white;
+}
+
+.section-5-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.section-5-2 a {
+  color: white;
+}
+
+.section-5-3 {
+  margin: 0.25rem 5rem 2rem 0;
+}
+.section-5-3 input {
+  border-radius: 3em;
+  border: none;
+  height: 2.6rem;
+  width: 17rem;
+  text-align: center;
+}
+.section-5-3 button {
+  height: 2.6rem;
+  width: 4rem;
+}
+.section-5-3 p {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+/*pseudoselectores*/
+a:hover {
+  color: var(--azulGrisáceoOscuro);
+}
+button:hover {
+  background-color: var(--varianteGrisClaro);
+  color: var(--azulOscuro);
+  transform: translateY(-0.1rem);
+}
+i:hover {
+  color: var(--rojoBrillante);
+}
+.article-1 p::before {
+  content: ">>";
+  color: var(--rojoBrillante);
+}
+.article-3 p::before {
+  content: ">>";
+  color: var(--rojoBrillante);
+}
+
+nav li::before,
+nav li::after {
+  content: "-";
+  color: var(--rojoBrillante);
+}
+
+/*media queries*/
+/*mobile*/
+@media (max-width: 375px) {
+  /*header-menu-nav*/
+  .enlace {
+    padding-left: 2rem;
+  }
+  .checkbtn {
+    display: block;
+  }
+  header nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    top: 6rem;
+    left: -100%;
+    text-align: center;
+    transition: all 1s;
+  }
+  header nav ul li {
+    display: block;
+    margin: 2rem 0;
+    line-height: 2rem;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .header-button {
+    display: none;
+  }
+
+  /*section-1*/
+  .article-1 {
+    margin: 0rem 1rem 6rem 1rem;
+  }
+  .article-1 h1 {
+    font-size: 2.6rem;
+  }
+  .article-1 p {
+    text-align: center;
+    margin-right: 0;
+  }
+  .article-1 p,
+  button {
+    margin-top: 2rem;
+  }
+  .display {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .article-2 img {
+    width: 21rem;
+    height: 19rem;
+  }
+  .article-2 {
+    order: -1;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  p::before {
+    display: none;
+  }
+
+  /*section-2*/
+  .article-3 {
+    margin: 0rem 1rem 0rem 1rem;
+  }
+  .article-3 h2 {
+    font-size: 1.8rem;
+  }
+  .article-3 p {
+    text-align: center;
+  }
+
+  .article-4 {
+    margin: 1rem 1rem 0rem 1rem;
+  }
+  .article-4 li {
+    background-color: rgba(242, 95, 58, 0.2);
+    padding: 0.25rem 0rem 0.25rem 0rem;
+    text-align: left;
+    border-radius: 3em;
+  }
+  .article-4 p {
+    text-align: left;
+    margin-top: 0.75rem;
+  }
+
+  /*section-3*/
+  .card-1,
+  .card-3 {
+    display: none;
+  }
+  .center-button {
+    left: 30%;
+  }
+
+  /*footer*/
+  /*section4*/
+  .footer-part-1 h2 {
+    font-size: 1.8rem;
+    margin: 3rem 1rem 1rem 1rem;
+  }
+  .footer-part-1 button {
+    margin: 0rem 0rem 3rem 0rem;
+  }
+
+  /*section-5*/
+  .section-5-3 {
+    margin: 0rem 1rem 2rem 1rem;
+  }
+
+  .section-5-2 {
+    margin: 2rem 1rem 2rem 1rem;
+  }
+  .section-5-1 {
+    margin: 2rem 0rem 1rem 0rem;
+  }
+}
